@@ -1,2 +1,2 @@
-# language-selector
-modification to the Sitecore language selector
+# Searchable Language Selector
+modification to the existing Sitecore language selector, which allows the user to filter languages
