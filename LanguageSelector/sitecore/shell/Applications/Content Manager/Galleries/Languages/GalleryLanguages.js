@@ -7,7 +7,7 @@
     
 function filterLanguages(el, event) {
 
-    var searchText = event.srcElement ? event.srcElement.value : event.target.value;
+    var searchText = event.srcElement ? event.srcElement.value.toLowerCase() : event.target.value.toLowerCase();
 
     var languages = scForm.browser.getControl("Languages");
     var menuItems = languages.getElementsByClassName("scMenuPanelItem");
